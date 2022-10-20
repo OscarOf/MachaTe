@@ -7,6 +7,19 @@ body{
     grid-template-columns: 33% 33% 33%;
 }
 
+.barra{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.logo{
+    margin: auto;
+}
+
+.seccion1{
+    margin-top: 2%;
+}
+
 .seccion3, .seccion7{
     background-image: url("../Imag/bg-1.jpg");
 }
