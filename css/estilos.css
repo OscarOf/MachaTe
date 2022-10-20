@@ -6,3 +6,7 @@ body{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
+
+.seccion3{
+    background-image: url("../Imag/bg-1.jpg");
+}
