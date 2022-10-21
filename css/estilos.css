@@ -2,6 +2,7 @@ body{
     margin: 40px;
 }
 
+/*Header*/
 .row-header{
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -16,9 +17,31 @@ body{
     margin: auto;
 }
 
+/*Sección 1*/
 .seccion1{
     margin-top: 2%;
+    display: grid;
+    grid-template-rows: 720px;   
+    background-image: url("../Imag/slider-2.jpg");
 }
+
+h1{
+    font-size: 60px;    
+}
+
+.titulo{
+    width: 30%;
+    margin:auto;
+    text-align: center;
+}
+
+/*Sección 2*/
+
+.seccion2{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
 
 .seccion3, .seccion7{
     background-image: url("../Imag/bg-1.jpg");
