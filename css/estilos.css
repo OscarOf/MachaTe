@@ -67,13 +67,28 @@ h1{
     margin: auto;
 }
 
-.prod{
-    
-}
-
 .seccion3, .seccion7{
     background-image: url("../Imag/bg-1.jpg");
 }
+
+/*Cuarta Sección*/
+.seccion4{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/*Quinta Sección*/
+.seccion5{
+    background-color:#f3f3f3;
+}
+
+.msub5{
+    text-align: center;
+}
+
 
 .seccion6{
     background-image: url("../Imag/bg-2.jpg");
