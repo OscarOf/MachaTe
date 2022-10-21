@@ -26,11 +26,12 @@ body{
 }
 
 h1{
-    font-size: 60px;    
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;    
 }
 
 .titulo{
-    width: 30%;
+    width: 40%;
     margin:auto;
     text-align: center;
 }
@@ -52,6 +53,7 @@ h1{
     grid-template-rows: auto auto;
     padding-top: 4%;
     padding-bottom: 4%;
+    font-family: 'Playfair Display', serif;
 }
 
 .msub3{
@@ -83,6 +85,7 @@ h1{
 /*Quinta Sección*/
 .seccion5{
     background-color:#f3f3f3;
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 
@@ -124,6 +127,7 @@ h1{
     padding-bottom: 3%;
 }
 
+/*Octava Sección*/
 .seccion8{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -131,4 +135,35 @@ h1{
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+/*Novena Sección*/
+.seccion9{
+    background-color:#f3f3f3;
+}
+
+.sub9{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 65%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Playfair Display', serif;
+}
+
+footer{
+    background-color: #f0ecec;
+        
+}
+
+.subf{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 65%;
+    margin: auto;
+}
+
+.subf1{
+    text-align: center;
 }
