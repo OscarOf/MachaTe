@@ -60,7 +60,7 @@ h1{
     margin-bottom: 2%;
 }
 
-.sub3{
+.sub3, .sub5{
     display: grid;
     width: 65%;
     grid-template-columns: repeat(4, 1fr);
@@ -83,16 +83,24 @@ h1{
 /*Quinta Sección*/
 .seccion5{
     background-color:#f3f3f3;
+    padding-bottom: 3%;
 }
 
 .msub5{
     text-align: center;
 }
 
+.sub5{
+    display: grid;
+    
+}
 
+/*Sexta Sección*/
 .seccion6{
     background-image: url("../Imag/bg-2.jpg");
     text-align: center;
-   
+    padding: 5%;
+    font-size: 2em;   
 }
 
+/*Septima Sección*/
