@@ -104,3 +104,31 @@ h1{
 }
 
 /*Septima Sección*/
+.seccion7{
+    
+}
+
+.msub7{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.sub7{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 65%;
+    margin: auto;
+    margin-top: 3% ;
+    padding-bottom: 3%;
+}
+
+.seccion8{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 65%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
