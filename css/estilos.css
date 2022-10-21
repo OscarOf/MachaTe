@@ -36,12 +36,17 @@ h1{
 }
 
 /*Sección 2*/
-
 .seccion2{
     display: grid;
     grid-template-columns: 50% auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
+/*Sección 3*/
+.seccion3{
+    display: block;
+}
 
 .seccion3, .seccion7{
     background-image: url("../Imag/bg-1.jpg");
