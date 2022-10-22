@@ -5,7 +5,7 @@ body{
 /*Header*/
 .row-header{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .barra{
@@ -21,7 +21,7 @@ body{
 .seccion1{
     margin-top: 2%;
     display: grid;
-    grid-template-rows: 720px;   
+    grid-template-rows: 720px;
     background-image: url("../Imag/slider-2.jpg");
 }
 
@@ -40,7 +40,7 @@ h1{
 .seccion2{
     width: 65%;
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: repeat(2, 1fr);
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -155,6 +155,7 @@ h1{
     font-family: 'Playfair Display', serif;
 }
 
+/*Footer*/
 footer{
     background-color: #f0ecec;
         
@@ -170,3 +171,41 @@ footer{
 .subf1{
     text-align: center;
 }
+
+/*Responsive
+@media(max-width:320px){
+   
+    body{
+        margin: 10px;
+    }
+
+    .row-header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .barranav{
+        display: none;
+    }
+
+    .carrito{
+        text-align: right;
+    }
+
+    .seccion1{
+        width: 100%;
+        background-image: none;
+        background-color: red;
+        background-size: auto;
+    }
+    
+    h1{
+        font-size: 1em;
+        font-family: 'Playfair Display', serif;    
+    }
+
+    .titulo{
+        background-color: antiquewhite;
+    }
+}
+*/
