@@ -1,0 +1,46 @@
+@media(max-width:320px){
+   
+    body{
+        margin: 10px;
+    }
+
+    .row-header{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .barranav{
+        display: none;
+    }
+
+    .rlogo{
+      width: 160px;
+      height: 45px;       
+    }
+
+    .carrito{
+        text-align: right;
+    }
+
+    .seccion1{
+       height: 400px;
+       background-size: 700%;
+       background-repeat: no-repeat;
+    }
+
+    .titulo{
+        width: 300px;
+        margin-top: 150px;
+    }
+   
+    h1{
+        font-size: 1.7em;
+        font-family: 'Playfair Display', serif;    
+    }
+
+    
+
+    .seccion2, .seccion3, .seccion4, .seccion5, .seccion6, .seccion7, .seccion8, .seccion9, footer{
+        display: none;
+    }
+}
