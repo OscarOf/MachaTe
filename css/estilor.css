@@ -38,9 +38,27 @@
         font-family: 'Playfair Display', serif;    
     }
 
+    .seccion2{
+        display: grid;
+        grid-template-columns: 100px;
+        grid-template-rows: 50% auto;
+        row-gap: 30px;
+        margin-left: 0px;
+
+    }
+
+    .banner1{
+        width: 300px;
+        margin: auto;
+    }
+
+    .banner2{
+        width: 300px;
+        margin: auto;
+    }
     
 
-    .seccion2, .seccion3, .seccion4, .seccion5, .seccion6, .seccion7, .seccion8, .seccion9, footer{
+    .seccion3, .seccion4, .seccion5, .seccion6, .seccion7, .seccion8, .seccion9, footer{
         display: none;
     }
 }
