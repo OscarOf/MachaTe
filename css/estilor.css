@@ -92,6 +92,7 @@
     }
 
     .sub5{
+        display: grid;
         grid-template-columns: 250px;
         grid-template-rows: 50% auto;
         margin-left: 15px;
@@ -106,15 +107,52 @@
     }
     
     .seccion7{
+       padding-top: 10px;
+    }
 
+    .msub7{
+        font-size: 23px;
     }
     
     .sub7{
+        display: grid;
+        grid-template-columns: 320px;
+        grid-template-rows: auto auto auto;
+        margin-left: 10px;
+    }
+
+    .sub7img{
+        width: 280px;
+    }
+
+    .seccion8{
+        padding-top: 35px;
+        padding-bottom: 35px;        
+    }
+
+    .sub8{
+        width: auto;
+        padding-left: 13px;
+    }
+
+    .sub8m{
+        display: none;
+    }
+    
+    .seccion9{
+        width: 100%;
         
     }
 
-
-    .seccion8, .seccion9, footer{
-        display: none;
+    .sub9{
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: auto auto auto auto;
+        margin-left: 10px;
+    }
+    
+    
+    footer{
+        
     }
 }
