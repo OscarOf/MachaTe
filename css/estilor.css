@@ -153,6 +153,18 @@
     
     
     footer{
-        
+       
+    }
+
+    .subf{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: auto auto;
+        margin: auto;
+        margin-left: 0px;
+    }
+
+    .subf2{
+        width: 280px;
     }
 }
