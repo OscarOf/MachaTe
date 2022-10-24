@@ -6,6 +6,7 @@ body{
 .row-header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    font-family: 'Work Sans', sans-serif;
 }
 
 .barra{
@@ -170,4 +171,13 @@ footer{
 
 .subf1{
     text-align: center;
+}
+
+/*Página Producto*/
+
+.headerp{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Work Sans', sans-serif;
+    color: #575757;
 }
