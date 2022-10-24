@@ -177,7 +177,7 @@ footer{
 
 .headerp{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto 5%;
     font-family: 'Work Sans', sans-serif;
     color: #575757;
 }
@@ -221,7 +221,9 @@ footer{
     text-decoration: underline;
     font-family: 'Playfair Display', serif;    
     font-size: 2em;
+    padding-top: 2%;
     margin-left: 90px;
+    
 }
 
 .subp4{
@@ -231,5 +233,6 @@ footer{
     font-family: 'Work Sans', sans-serif;
     color: #575757;
     margin: auto;
+    padding-bottom: 5%;
     
 }
