@@ -181,3 +181,15 @@ footer{
     font-family: 'Work Sans', sans-serif;
     color: #575757;
 }
+
+.seccionp1{
+    background-image: url("../Imag/productopag.png");
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.seccionp2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
