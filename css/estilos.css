@@ -201,7 +201,7 @@ footer{
 
 .imagp1{
     width: 55%;
-    margin-left: 200px;
+    margin-left: 165px;
     border: 1px solid rgb(221, 207, 207);
 }
 
@@ -215,6 +215,21 @@ footer{
     margin: auto;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    
+}
+
+.seccionp4 p{
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;    
+    font-size: 2em;
+    margin-left: 90px;
+}
+
+.subp4{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Work Sans', sans-serif;
+    color: #575757;
+    margin: auto;
     
 }
