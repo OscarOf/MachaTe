@@ -192,4 +192,24 @@ footer{
 .seccionp2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Playfair Display', serif;    
+
+}
+
+.imagp1{
+    width: 55%;
+    margin-left: 200px;
+    border: 1px solid rgb(221, 207, 207);
+}
+
+.imagp2{
+    border: 1px solid rgb(221, 207, 207);
+}
+
+.seccionp3{
+    display: grid;
+    
 }
