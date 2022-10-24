@@ -211,5 +211,10 @@ footer{
 
 .seccionp3{
     display: grid;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
     
 }
